@@ -9,8 +9,7 @@
   "keywords": [],
   "scripts": {
     "start": "yarn build && yarn quickstart",
-    "watch": "yarn clean:min && tsc-watch --onSuccess \"node ./lib/test.js\"",
-    "quickstart": "node ./lib/test.js",
+    "quickstart": "node ./lib/sum.test.js",
     "build": "yarn clean:min && tsc -p .",
     "clean:min": "rimraf ./lib",
     "clean:max": "rimraf ./node_modules ./package-lock.json ./lib",

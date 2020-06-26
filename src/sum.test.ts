@@ -2,7 +2,7 @@ import baretest from 'baretest';
 import assert from 'assert';
 import { sum } from './sum';
 
-const test = baretest('Baretest title');
+const test = baretest('Sum');
 
 test('1 + 2', () => {
   assert.equal(sum(1, 2), 3);
